@@ -1,5 +1,6 @@
 from mycroft import MycroftSkill, intent_file_handler
 from mycroft.util import wait_while_speaking
+from mycroft.messagebus.message import Message
 import time
 
 class Airplay(MycroftSkill):
@@ -14,7 +15,7 @@ class Airplay(MycroftSkill):
     	#wait 3 seconds
     	time.sleep(3)
     	#reboot
-    	
+    	self.bus.emit(Message("system.reboot"))
     	return None
 
 def create_skill():
