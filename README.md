@@ -1,5 +1,4 @@
-# <img src='http://linuss1.pythonanywhere.com/static/mycroft/mycroft-airplay-skill-logo-50x50.jpg' card_color='#AEE2CA' width='50' height='50' style='vertical-align:bottom'/>
- Airplay
+# <img src='http://linuss1.pythonanywhere.com/static/mycroft/mycroft-airplay-skill-logo-50x50.jpg' card_color='#AEE2CA' width='50' height='50' style='vertical-align:bottom'/> Airplay
 Play music through Mycroft with Airplay
 
 ## About 
