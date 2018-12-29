@@ -8,6 +8,7 @@ The install takes a little while because it needs to build Shairport-sync. Once 
 
 
 ## Examples 
+* "install airplay"
 
 ## Credits 
 Linus S (@LinusS1)
