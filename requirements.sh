@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # update package sources and install deps
 sudo apt-get update
 sudo apt-get install -y autoconf automake avahi-daemon build-essential git libasound2-dev libavahi-client-dev libconfig-dev libdaemon-dev libpopt-dev libssl-dev libtool xmltoman
@@ -25,5 +26,5 @@ sudo ufw allow from 192.168.1.1/31 to any port 5353
 sudo ufw allow from 192.168.1.1/31 to any port 5000:5005 proto tcp
 sudo ufw allow from 192.168.1.1/31 to any port 6000:6005 proto udp
 sudo ufw allow from 192.168.1.1/31 to any port 35000:65535 proto udp
-
+exit 0
 #All done: after telling the user, we need to reboot!
